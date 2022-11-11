@@ -1,6 +1,6 @@
 package model;
 
-import main.Validate;
+import Utils.Validate;
 import java.util.List;
 import java.util.Scanner;
 

@@ -1,8 +1,7 @@
 package model;
 
-import main.Validate;
+import Utils.Validate;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 

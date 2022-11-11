@@ -45,13 +45,13 @@ public class ManagerEmploy {
 
     public void showAllStudentList() {
         System.out.println("Show All Employ List:");
-        for (Employ em : employList) {
+        for (Employ employ : employList) {
             System.out.println(em.toString());
-            if (em instanceof Programmer) {
-                System.out.println("Salary Programmer: "+em.countSalary());;
+            if (employ instanceof Programmer) {
+                System.out.println("Salary Programmer: "+em.countSalary() + "VNĐ");;
             }
-            if (em instanceof Verifier) {
-                System.out.println("Salary Verifier: "+em.countSalary());;
+            if (employ instanceof Verifier) {
+                System.out.println("Salary Verifier: "+em.countSalary() + "VNĐ");;
             }
         }
     }
